@@ -9,7 +9,7 @@
   "description": "A simple example plugin",
   "entryPoints": {
     "barWidget": "BarWidget.qml",
-    "Settings": "Settings.qml"
+    "settings": "Settings.qml"
   },
   "dependencies": {
     "plugins": []
