@@ -20,10 +20,15 @@
   env = {
     QML_IMPORT_PATH = "${pkgs.qt6.qtdeclarative}/lib/qt-6/qml";
     QT_PLUGIN_PATH = "${pkgs.qt6.qtdeclarative}/lib/qt-6/plugins";
+    NOCTALIA_DEBUG = 1;
   };
 
-  enterShell = ''
-    echo "QML Development Environment Loaded"
-    echo "Running qml version: $(qml --version)"
-  '';
+  scripts = {
+    start-noctalia-debug = {
+      exec = ''
+        noctalia-shell kill
+        noctalia-shell
+      '';
+    };
+  };
 }
