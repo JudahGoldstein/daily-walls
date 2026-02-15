@@ -4,7 +4,7 @@
     {
       "id": "daily-walls",
       "name": "Daily Walls",
-      "version": "0.0.3",
+      "version": "0.0.8",
       "official": false,
       "author": "JudahGoldstein",
       "description": "Sets a daily wallpaper",
@@ -12,7 +12,7 @@
       "minNoctaliaVersion": "4.4.3",
       "license": "MIT",
       "tags": [],
-      "lastUpdated": "2026-02-14T21:52:25-05:00"
+      "lastUpdated": "2026-02-14T22:48:56-05:00"
     }
   ]
 }

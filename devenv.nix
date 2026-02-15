@@ -11,6 +11,7 @@
     qt6.qtdeclarative.dev
     kdePackages.qtquick3d
     jsonfmt
+    swaybg
   ];
 
   languages = {
