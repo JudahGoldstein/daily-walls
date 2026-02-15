@@ -9,6 +9,7 @@
     qt6.qtdeclarative
     qt6.qttools
     qt6.qtdeclarative.dev
+    kdePackages.qtquick3d
     jsonfmt
   ];
 
