@@ -1,24 +1,19 @@
 {
   "id": "daily-walls",
   "name": "Daily Walls",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minNoctaliaVersion": "4.4.3",
   "author": "JudahGoldstein",
   "license": "MIT",
   "repository": "https://github.com/JudahGoldstein/daily-walls",
-  "description": "A simple example plugin",
+  "description": "Sets a daily wallpaper",
   "entryPoints": {
-    "barWidget": "BarWidget.qml",
     "settings": "Settings.qml"
   },
   "dependencies": {
     "plugins": []
   },
   "metadata": {
-    "defaultSettings": {
-      "message": "Hello World",
-      "enabled": true,
-      "count": 0
-    }
+    "defaultSettings": {}
   }
 }
