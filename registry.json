@@ -4,15 +4,15 @@
     {
       "id": "daily-walls",
       "name": "Daily Walls",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "official": false,
       "author": "JudahGoldstein",
-      "description": "A simple example plugin",
+      "description": "Sets a daily wallpaper",
       "repository": "https://github.com/JudahGoldstein/daily-walls",
       "minNoctaliaVersion": "4.4.3",
       "license": "MIT",
       "tags": [],
-      "lastUpdated": "2026-02-14T21:45:45-05:00"
+      "lastUpdated": "2026-02-14T21:52:25-05:00"
     }
   ]
 }
