@@ -8,12 +8,17 @@
   "repository": "https://github.com/JudahGoldstein/daily-walls",
   "description": "A simple example plugin",
   "entryPoints": {
-    "barWidget": "BarWidget.qml"
+    "barWidget": "BarWidget.qml",
+    "Settings": "Settings.qml"
   },
   "dependencies": {
     "plugins": []
   },
   "metadata": {
-    "defaultSettings": {}
+    "defaultSettings": {
+      "message": "Hello World",
+      "enabled": true,
+      "count": 0
+    }
   }
 }
