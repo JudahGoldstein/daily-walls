@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "daily-walls",
+      "name": "Daily Walls",
+      "version": "0.0.0",
+      "official": false,
+      "author": "JudahGoldstein",
+      "description": "A simple example plugin",
+      "repository": "https://github.com/JudahGoldstein/daily-walls",
+      "minNoctaliaVersion": "4.4.3",
+      "license": "MIT",
+      "tags": [],
+      "lastUpdated": "2026-02-14T20:08:07-05:00"
+    }
+  ]
+}
