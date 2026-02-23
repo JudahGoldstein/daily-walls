@@ -6,12 +6,10 @@
 }:
 {
   packages = with pkgs; [
-    qt6.qtdeclarative
-    qt6.qttools
-    qt6.qtdeclarative.dev
-    kdePackages.qtquick3d
+    quickshell
+    kdePackages.qtdeclarative
+    kdePackages.qttools
     jsonfmt
-    swaybg
   ];
 
   languages = {
@@ -19,8 +17,6 @@
   };
 
   env = {
-    QML_IMPORT_PATH = "${pkgs.qt6.qtdeclarative}/lib/qt-6/qml";
-    QT_PLUGIN_PATH = "${pkgs.qt6.qtdeclarative}/lib/qt-6/plugins";
     NOCTALIA_DEBUG = 1;
   };
 
