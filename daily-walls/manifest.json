@@ -1,7 +1,7 @@
 {
   "id": "daily-walls",
   "name": "Daily Walls",
-  "version": "0.0.8",
+  "version": "0.0.20",
   "minNoctaliaVersion": "4.4.3",
   "author": "JudahGoldstein",
   "license": "MIT",
